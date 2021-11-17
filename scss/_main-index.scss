@@ -1,0 +1,112 @@
+main {
+    background-image: url("../src/img/sakura.png");
+    section {
+        margin: 0;
+        .container10{
+            display: grid;
+            justify-content: space-around;
+            .hijo11 {
+                justify-self: center;
+            }
+            h1 {
+                color: $color1 ;
+                font-size: 2rem;
+                font-family: cursive;
+                text-align: center;
+                text-decoration: underline;
+                text-align: center;
+            }
+            .parrafo1 {
+                    color: $color1 ;
+                    font-size: 1rem;
+                    text-align: justify;
+                    font-family: 'Josefin Sans', sans-serif;
+                    margin-left:1rem;
+                    margin-right: 1rem;
+                    margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+            .subs1 {
+                color: rgb(46, 46, 46);
+                font-weight: bolder;
+                font-size: 1.5rem;
+                text-decoration: underline;
+                font-family: sans-serif;
+                margin-left: 10rem;
+                display: inline;
+            }
+
+            .responsive1 {
+                color: $color1 ;
+                font-style: italic;
+                font-size: 1.22rem;
+                font-weight: bolder;
+                margin-left: 2rem;
+                list-style-type: none;
+                padding-top: 0.5rem;
+            }
+
+
+
+
+
+.grid-son9 {
+    padding: 0;
+    .subs99 {
+        color: rgb(46, 46, 46);
+        font-weight: bolder;
+        font-size: 1.5rem;
+        text-decoration: underline;
+        font-family: sans-serif;
+        display: inline;
+        margin-left: 8rem;
+    }
+
+    .lista2 {
+        color: $color1 ;
+        font-style: italic;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        margin-left: 2rem;
+        list-style-type:lower-alpha;
+        padding-top: 1rem;    
+
+    }
+
+}
+
+.grilla {
+    border: 2px solid cornflowerblue;
+}
+
+@media screen and (max-width: 992px) {
+    .subs1, .subs99 {
+      font-size: 1.5rem;
+      margin: auto;
+      padding: 0%;
+      
+    }
+}
+
+@media screen and (max-width: 992px) {
+    section ol li, .lista2 {
+      font-size: 1rem;
+      margin:auto;
+      padding: 0%;
+    }
+}
+
+@media screen and (max-width: 992) {
+    .carrusel {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 992) {
+    .carrusel {
+        display: none;
+    }
+}

@@ -1,0 +1,133 @@
+// placeholder
+
+
+%subsh3 {
+    color: cornflowerblue;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-family: cursive;
+    text-decoration: underline;
+    padding-bottom: 1rem;
+    
+}
+
+%containers-de-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+%enlaces-de-subs {
+    text-align: center
+}
+
+%subs-principales {
+    color:cornflowerblue ;
+    font-size: 2rem;
+    font-family: cursive;
+    text-align: center;
+    text-decoration: underline;
+    text-align: center;
+}
+
+%parrafos-secundarios {
+    color:cornflowerblue ;
+    font-size: 1rem;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left:1rem;
+    margin-right: 1rem;
+}
+
+%listas-secundarias {
+    color:cornflowerblue ;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+%imagenes-de-grids {
+    padding: 1rem
+}
+
+%imagenes-de-grids-2 {
+    margin-left: 13.3rem
+}
+
+%hovers-imagenes:hover {
+    transform: scale(3)
+}
+
+.substs, .substd, .substt, .substp, .subsbr, .subsg, .subsmar, 
+.subsmer, .subssus, .subscup {
+    @extend %subsh3;
+}
+
+.container-menu {
+   @extend %containers-de-flex;
+    width: 75%;
+    margin-left: 8rem;
+    
+}
+
+
+.container-menu2 {
+    @extend %containers-de-flex;
+    width: 100%;
+}
+
+.container-menu3 {
+    @extend %containers-de-flex;
+    width: 100%;
+
+}
+
+.torta1 a, .torta2 a, .torta3 a, .torta4 a, .torta5 a, .delicia1 a, .delicia2 a, .delicia3 a, .delicia4 a,
+.delicia5 a {
+    @extend %enlaces-de-subs;
+}
+
+.subtitulo-tdt, .subsdel, .subs4 {
+    @extend %subs-principales;
+}
+
+.parrafo3, .parrafo4, .parrafo5 {
+    @extend %parrafos-secundarios;
+}
+
+.lista2{
+    @extend %listas-secundarias;
+    font-size: 1rem;
+    margin-left: 1rem;
+    list-style-type:lower-alpha;
+    padding-top: 0rem;  
+}
+
+.metodos-pago {
+    @extend %listas-secundarias;
+    font-size: 0.83rem;
+    margin-left: 1.5rem;
+}
+
+.imagengrid1, .imagengrid2, .imagengrid3,.imagengrid5, .imagengrid6, .imagengrid7 {
+    @extend %imagenes-de-grids;
+    @extend %hovers-imagenes;
+}
+
+.imagengrid4, .imagengrid8 {
+    @extend %imagenes-de-grids-2;
+    @extend %hovers-imagenes;
+}
+
+.subs5 {
+    padding-bottom: 1rem;
+    @extend %subs-principales;
+
+}
+
+.subs6 {
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+    @extend %subs-principales;
+
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 30px
+}
+
+@import "variables";
+@import  "./botones";
+@import "header";
+@import "main-index";
+@import "footer";
+@import "./imagenes";
+@import "extends";
+@import "grids";
+
+.subs3 {
+    color: rgb(46, 46, 46);
+    font-weight: bolder;
+    font-size: 2rem;
+    text-decoration: underline;
+    font-family: sans-serif;
+    margin-left:1rem;
+    padding-bottom: 1rem;
+  
+}

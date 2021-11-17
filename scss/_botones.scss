@@ -1,0 +1,84 @@
+div .boton2 {
+    margin-left: 15rem;
+    margin-top: 2rem;
+    border: 0.1rem dotted cornflowerblue;
+    padding: 1rem;
+}
+div .boton3 {
+    margin-left: 14rem;
+    border: 0.1rem dotted cornflowerblue;
+    padding: 1rem;
+}
+
+
+a .boton4{
+    position: relative;
+    left: 40rem;
+    border: 0.1rem dotted cornflowerblue;
+}
+
+a .boton5 {
+    margin-left: 36.5rem;
+    border: 0.1rem dotted cornflowerblue;
+}
+
+
+a .boton6 {
+   
+    border: 0.1rem dotted cornflowerblue;
+}
+
+div .boton8 {
+    margin-left: 17rem;
+    margin-bottom: 1rem;
+    border: 0.1rem dotted cornflowerblue;
+    padding: 1rem;
+}
+
+// .boton9 {
+//     border: 0.1rem dotted cornflowerblue;
+//     margin-left: 4.5rem;
+// }
+
+.container-boton6 {
+    display: flex;
+    justify-content:space-around
+}
+
+// Hover y animaciones de botones
+
+a .boton1:hover {
+    animation: swing 1s ease;
+    animation-iteration-count: 1;
+    }
+    @keyframes swing {
+    15% {
+    transform: translateX(5px);
+    }
+    30% {
+    transform: translateX(-5px);
+    }
+    50% {
+    transform: translateX(3px);
+    }
+    65% {
+    transform: translateX(-3px);
+    }
+    80% {
+    transform: translateX(2px);
+    }
+    100% {
+    transform: translateX(0);
+    }
+
+}
+button:hover {
+    transform: scale(1.5);
+    transition: all 1.5s;
+
+} 
+
+div .btn:hover {
+    transform: scale(1.5);
+    transition: all 1.5s;
+}
