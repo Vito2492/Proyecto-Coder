@@ -38,6 +38,7 @@
     font-family: 'Josefin Sans', sans-serif;
     margin-left:1rem;
     margin-right: 1rem;
+    padding-top: 1rem;
 }
 
 %listas-secundarias {
@@ -55,7 +56,7 @@
 }
 
 %hovers-imagenes:hover {
-    transform: scale(3)
+    transform: scale(2)
 }
 
 .substs, .substd, .substt, .substp, .subsbr, .subsg, .subsmar, 
@@ -120,7 +121,7 @@
 }
 
 .subs5 {
-    padding-bottom: 1rem;
+    
     @extend %subs-principales;
 
 }

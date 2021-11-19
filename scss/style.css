@@ -8,8 +8,7 @@ html {
 }
 
 div .boton2 {
-  margin-left: 15rem;
-  margin-top: 2rem;
+  margin-left: 4.5rem;
   border: 0.1rem dotted cornflowerblue;
   padding: 1rem;
 }
@@ -383,16 +382,6 @@ footer section ul li {
   margin-top: 2.5rem;
 }
 
-.imagen19 {
-  margin-right: 4rem;
-  margin-top: 8rem;
-}
-
-.imagen20 {
-  margin-left: 5rem;
-  margin-top: 6rem;
-}
-
 .imagen21 {
   margin-left: 1rem;
   margin-top: 1.5rem;
@@ -476,6 +465,7 @@ footer section ul li {
   font-family: 'Josefin Sans', sans-serif;
   margin-left: 1rem;
   margin-right: 1rem;
+  padding-top: 1rem;
 }
 
 .lista2, .metodos-pago {
@@ -493,8 +483,8 @@ footer section ul li {
 }
 
 .imagengrid1:hover, .imagengrid2:hover, .imagengrid3:hover, .imagengrid5:hover, .imagengrid6:hover, .imagengrid7:hover, .imagengrid4:hover, .imagengrid8:hover {
-  -webkit-transform: scale(3);
-          transform: scale(3);
+  -webkit-transform: scale(2);
+          transform: scale(2);
 }
 
 .container-menu {
@@ -522,73 +512,23 @@ footer section ul li {
   margin-left: 1.5rem;
 }
 
-.subs5 {
-  padding-bottom: 1rem;
-}
-
 .subs6 {
   padding-bottom: 1rem;
   margin-right: 2rem;
 }
 
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
-  -ms-grid-rows: 2fr 2fr;
-      grid-template-rows: 2fr 2fr;
-  border: 4px solid cornflowerblue;
-  width: 100%;
+.flex-fotos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
 }
 
-.grid-container .grid-son1 {
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  grid-row-end: 4;
-}
-
-.grid-container .grid-son2 {
-  border: 2px solid cornflowerblue;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.grid-container .grid-son3 {
-  border: 2px dashed cornflowerblue;
-  padding: 2rem;
-}
-
-.grid-container2 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 2fr 2fr;
-      grid-template-columns: 2fr 2fr;
-  -ms-grid-rows: 2fr 2fr;
-      grid-template-rows: 2fr 2fr;
-  border: 4px solid cornflowerblue;
-  width: 100%;
-}
-
-.grid-container2 .grid-son4 {
-  -ms-grid-row: 1;
-      grid-row-start: 1;
-  grid-row-end: 4;
-  width: 100%;
-  height: 100%;
-}
-
-.grid-container2 .grid-son5 {
-  border: 2px solid cornflowerblue;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-}
-
-.grid-container2 .grid-son6 {
-  border: 2px dashed cornflowerblue;
-  padding: 2rem;
+.boot-grid {
+  border: 3px solid cornflowerblue;
 }
 
 .subs3 {
