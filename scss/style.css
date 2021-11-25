@@ -228,11 +228,13 @@ main section .container10 .parrafo1 {
 .grid-son9 .subs99 {
   color: #2e2e2e;
   font-weight: bolder;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: underline;
   font-family: sans-serif;
   display: inline;
   margin-left: 8rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .grid-son9 .lista2 {
@@ -247,22 +249,6 @@ main section .container10 .parrafo1 {
 
 .grilla {
   border: 2px solid cornflowerblue;
-}
-
-@media screen and (max-width: 992px) {
-  .subs1, .subs99 {
-    font-size: 1.5rem;
-    margin: auto;
-    padding: 0%;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  section ol li, .lista2 {
-    font-size: 1rem;
-    margin: auto;
-    padding: 0%;
-  }
 }
 
 @media screen and (max-width: 992) {

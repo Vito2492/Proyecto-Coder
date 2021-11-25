@@ -58,11 +58,12 @@ main {
     .subs99 {
         color: rgb(46, 46, 46);
         font-weight: bolder;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         text-decoration: underline;
         font-family: sans-serif;
         display: inline;
         margin-left: 8rem;
+        flex-wrap: wrap;
     }
 
     .lista2 {
@@ -82,22 +83,7 @@ main {
     border: 2px solid cornflowerblue;
 }
 
-@media screen and (max-width: 992px) {
-    .subs1, .subs99 {
-      font-size: 1.5rem;
-      margin: auto;
-      padding: 0%;
-      
-    }
-}
 
-@media screen and (max-width: 992px) {
-    section ol li, .lista2 {
-      font-size: 1rem;
-      margin:auto;
-      padding: 0%;
-    }
-}
 
 @media screen and (max-width: 992) {
     .carrusel {
