@@ -115,6 +115,10 @@
     @extend %hovers-imagenes;
 }
 
+.imagengrid10, .imagengrid11, .imagengrid12 {
+    @extend %imagenes-de-grids;
+}
+
 .imagengrid4, .imagengrid8 {
     @extend %imagenes-de-grids-2;
     @extend %hovers-imagenes;

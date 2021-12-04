@@ -19,6 +19,12 @@ div .boton3 {
   padding: 1rem;
 }
 
+div .boton11 {
+  margin-left: 13rem;
+  border: 0.1rem dotted cornflowerblue;
+  padding: 1rem;
+}
+
 a .boton4 {
   position: relative;
   left: 40rem;
@@ -466,7 +472,7 @@ footer section ul li {
   font-weight: bolder;
 }
 
-.imagengrid1, .imagengrid2, .imagengrid3, .imagengrid5, .imagengrid6, .imagengrid7 {
+.imagengrid1, .imagengrid2, .imagengrid3, .imagengrid5, .imagengrid6, .imagengrid7, .imagengrid10, .imagengrid11, .imagengrid12 {
   padding: 1rem;
 }
 
