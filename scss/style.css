@@ -182,6 +182,12 @@ main section .container10 .hijo11 {
       justify-self: center;
 }
 
+main section .container10 .hijo14 {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  padding-bottom: 2rem;
+}
+
 main section .container10 h1 {
   color: cornflowerblue;
   font-size: 2rem;
