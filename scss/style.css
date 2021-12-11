@@ -538,4 +538,28 @@ footer section ul li {
   margin-left: 1rem;
   padding-bottom: 1rem;
 }
+
+@media screen and (max-width: 601px) {
+  .titulo {
+    font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .parrafo1, .responsive1, .lista2, .subs99, .subs, .lista4, .contacto1, .contacto2, .motivacion, .parrafo2 {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .imagen1, .img2 {
+    width: 450px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
