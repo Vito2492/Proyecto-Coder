@@ -8,7 +8,6 @@ html {
 }
 
 div .boton2 {
-  margin-left: 4.5rem;
   border: 0.1rem dotted cornflowerblue;
   padding: 1rem;
 }
@@ -484,9 +483,9 @@ footer section ul li {
   margin-left: 13.3rem;
 }
 
-.imagengrid1:hover, .imagengrid2:hover, .imagengrid3:hover, .imagengrid5:hover, .imagengrid6:hover, .imagengrid7:hover, .imagengrid4:hover, .imagengrid8:hover {
-  -webkit-transform: scale(2);
-          transform: scale(2);
+.imagengrid1:hover, .imagengrid2:hover, .imagengrid3:hover, .imagengrid5:hover, .imagengrid6:hover, .imagengrid7:hover, .imagengrid10:hover, .imagengrid11:hover, .imagengrid12:hover, .imagengrid4:hover, .imagengrid8:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .container-menu {
@@ -667,6 +666,13 @@ footer section ul li {
   .subs3 {
     font-size: 0.75rem;
     padding: 0%;
+  }
+}
+
+@media screen and (max-width: 624px) {
+  .imagengrid10, .imagengrid11, .imagengrid12 {
+    width: 280px;
+    height: auto;
   }
 }
 /*# sourceMappingURL=style.css.map */
