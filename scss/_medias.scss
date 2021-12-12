@@ -135,5 +135,31 @@
     }
 }
 
+@media screen and (max-width: 720px) {
+    .imagengrid10:hover, .imagengrid11:hover, .imagengrid12:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        transform: none; 
+    }
+}
+
+@media screen and (max-width: 732px) {
+    .imagengrid1:hover, .imagengrid2:hover, .imagengrid3:hover,.imagengrid5:hover, .imagengrid6:hover, .imagengrid7:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        transform: none; 
+    }
+}
+
+@media screen and (max-width: 844px) {
+    .boton2:hover, .boton6:hover {
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        transform: none; 
+    }
+}
 
 
