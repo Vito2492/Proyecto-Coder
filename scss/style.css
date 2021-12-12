@@ -117,8 +117,8 @@ a .boton1:hover {
 }
 
 button:hover {
-  -webkit-transform: scale(1.5);
-          transform: scale(1.5);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
   -webkit-transition: all 1.5s;
   transition: all 1.5s;
 }
@@ -339,6 +339,10 @@ footer section ul li {
   bottom: 1rem;
 }
 
+.fila {
+  width: 100%;
+}
+
 .imagen1 {
   padding: 1rem 1rem;
 }
@@ -507,7 +511,6 @@ footer section ul li {
 
 .metodos-pago {
   font-size: 0.83rem;
-  margin-left: 1.5rem;
 }
 
 .subs6 {
@@ -532,7 +535,17 @@ footer section ul li {
 .subs3 {
   color: #2e2e2e;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  font-family: sans-serif;
+  margin-left: 1rem;
+  padding-bottom: 1rem;
+}
+
+.subs3 {
+  color: #2e2e2e;
+  font-weight: bolder;
+  font-size: 1.7rem;
   text-decoration: underline;
   font-family: sans-serif;
   margin-left: 1rem;
@@ -540,26 +553,120 @@ footer section ul li {
 }
 
 @media screen and (max-width: 601px) {
-  .titulo {
+  .titulo, .subs3 {
     font-size: 1.8rem;
   }
 }
 
+@media screen and (max-width: 400px) {
+  .titulo, .subs3 {
+    font-size: 1.2rem;
+  }
+}
+
 @media screen and (max-width: 601px) {
-  h1 {
+  h1, .subs4 {
     font-size: 1.5rem !important;
   }
 }
 
-@media screen and (max-width: 601px) {
-  .parrafo1, .responsive1, .lista2, .subs99, .subs, .lista4, .contacto1, .contacto2, .motivacion, .parrafo2 {
-    font-size: 0.8rem !important;
+@media screen and (max-width: 472px) {
+  .logo, .instagram {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .instagram {
+    margin-left: 5rem;
   }
 }
 
 @media screen and (max-width: 601px) {
-  .imagen1, .img2 {
+  .parrafo1, .responsive1, .lista2, .subs99, .subs, .lista4, .contacto1, .contacto2, .motivacion, .parrafo2, .parrafo3, .parrafo4 {
+    font-size: 0.8rem !important;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .parrafo1, .responsive1, .lista2, .subs99, .subs, .lista4, .contacto1, .contacto2, .motivacion, .parrafo2, .parrafo3, .parrafo4 {
+    font-size: 0.5rem !important;
+  }
+}
+
+@media screen and (max-width: 605px) {
+  .imagen1, .img2, .imagen8, .imagen9, .imagen10, .imagen11 {
     width: 450px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .imagen1, .img2 {
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .imagen12 {
+    width: 450px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .imagen8, .imagen9 {
+    width: 350px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .imagen10 {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .imagen11, .imagen12 {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .boton2 {
+    width: 200px;
+    height: auto;
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .boton2 {
+    width: 200px;
+    height: auto;
+    font-size: 0.6rem;
+    margin-right: 3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .boton6 {
+    font-size: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 601px) {
+  .subs3 {
+    font-size: 1rem;
+    padding: 0%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .subs3 {
+    font-size: 0.75rem;
+    padding: 0%;
   }
 }
 /*# sourceMappingURL=style.css.map */
